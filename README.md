@@ -44,6 +44,7 @@ You can start with a test API key (`duffel_test`) to try the functionality.
 To publish this MCP to Smithery:
 ```bash
 npx @smithery/cli install @smithery-ai/github --client claude --key <smithery-key>
+npx @smithery/cli pubish
 
 ```
 
