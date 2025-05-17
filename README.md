@@ -43,12 +43,14 @@ You can start with a test API key (`duffel_test`) to try the functionality.
 
 To publish this MCP to Smithery:
 ```bash
-npx @smithery/cli publish
+npx @smithery/cli install @smithery-ai/github --client claude --key <smithery-key>
+
 ```
 
 To run the published MCP:
 ```bash
-npx @smithery/cli run @your-username/flights-mcp-ts --config "{\"duffelApiKey\":\"your_duffel_api_key\"}"
+npx @smithery/cli run @clockworked247/flights-mcp-ts --config "{\"duffelApiKey\":\"your_duffel_api_key\"}" --key <your-smithery-key>
+
 ```
 
 ## Available Tools
